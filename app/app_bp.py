@@ -7,4 +7,5 @@ bp = Blueprint('app', __name__, url_prefix='/app')
 # a simple page that says hello
 @bp.route('/')
 def landing_page():
-    return render_template('base.html')
+    # return render_template('base.html')
+    return "Hello world!"
